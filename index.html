@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <div class="container-fluid vh-100 pt-5 d-flex flex-column justify-content-center bg-primary">
+
+        <h1 class="mb-5 text-center">Kim birinchi bo-rish-ga!</h1>
+
+        <form class="form input-group mb-5 justify-content-center" action="https://echo.academy.ru" method="GET">
+
+            <label class="mr-3"> Masofa:
+                <input class="input" type="number" step="any" placeholder="Enter ...km/s" required>
+            </label>
+            <button type="submit">Hisobla</button>
+
+        </form>
+
+        <ul class="js-run list-unstyled d-flex justify-content-between text-center">
+            <li class="item border px-5 py-2 w-25">
+                <img class="my-4" src="./icons/walking-solid.svg" alt="Walsking" width="120" height="100">
+                <p class="h5">Piyoda</p>
+                <div class="result-walker">N</div>
+            </li>
+            <li class="item border px-5 py-2 w-25">
+                <img class="my-4" src="./icons/bicycle-solid.svg" alt="Bicycle" width="120" height="100">
+                <p class="h5">Velik</p>
+                <div class="result-bike">N</div>
+            </li>
+            <li class="item border px-5 py-2 w-25">
+                <img class="my-4" src="./icons/car-solid.svg" alt="Car" width="120" height="100">
+                <p class="h5">Moshina</p>
+                <div class="result-avto">N</div>
+            </li>
+            <li class="item border px-5 py-2 w-25">
+                <img class="my-4" src="./icons/plane-solid.svg" alt="Airplane" width="120" height="100">
+                <p class="h5">Samolyot</p>
+                <div class="result-plane">N</div>
+            </li>
+        </ul>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
